@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../riscv-cpu.srcs/sources_1/new/cpu.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/defines.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/openmips_min_sopc.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/inst_rom.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/ex_mem.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/id.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/regfile.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/openmips_min_sopc_tb.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/mem_wb.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/id_ex.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/pc_reg.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/if_id.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/ex.v" \
+"../../../../riscv-cpu.srcs/sources_1/new/mem.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

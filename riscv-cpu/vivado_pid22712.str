@@ -1,0 +1,107 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 22712
+License: Customer
+
+Current time: 	Fri Jan 04 18:36:10 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 55 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	lyxin
+User home directory: C:/Users/lyxin
+User working directory: D:/GitHub/riscv-cpu/riscv-cpu
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.2
+RDI_DATADIR: D:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/lyxin/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/lyxin/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/lyxin/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/GitHub/riscv-cpu/riscv-cpu/vivado.log
+Vivado journal file location: 	D:/GitHub/riscv-cpu/riscv-cpu/vivado.jou
+Engine tmp dir: 	D:/GitHub/riscv-cpu/riscv-cpu/.Xil/Vivado-22712-DESKTOP-8KQDUU6
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.2
+XILINX_SDK: D:/Xilinx/SDK/2018.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 577 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 50 MB (+49465kb) [00:00:05]
+// [Engine Memory]: 489 MB (+361359kb) [00:00:05]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: D:\GitHub\riscv-cpu\riscv-cpu\riscv-cpu.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/GitHub/riscv-cpu/riscv-cpu/riscv-cpu.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/GitHub/riscv-cpu/riscv-cpu/riscv-cpu.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 59 MB (+7669kb) [00:00:08]
+// [Engine Memory]: 579 MB (+68474kb) [00:00:08]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 68 MB (+5986kb) [00:00:09]
+// [Engine Memory]: 625 MB (+18133kb) [00:00:09]
+// [GUI Memory]: 93 MB (+22468kb) [00:00:10]
+// [GUI Memory]: 101 MB (+3147kb) [00:00:10]
+// [Engine Memory]: 662 MB (+6037kb) [00:00:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 675 MB. GUI used memory: 41 MB. Current time: 1/4/19 6:36:13 PM CST
+// Project name: riscv-cpu; location: D:/GitHub/riscv-cpu/riscv-cpu; part: xc7vx485tffg1157-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 862.539 ; gain = 117.840 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// Tcl Message: set_property source_mgmt_mode None [current_project] 
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // B (D, ck)
+selectButton(PAResourceEtoH.FileSetPanel_RELOAD, "Reload..."); // h (cM, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (ck)
+// Elapsed time: 44 seconds
+selectButton(PAResourceEtoH.FileSetPanel_RELOAD, "Reload..."); // h (cM, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (ck)
