@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../src/common/block_ram/block_ram.v" \
+"../../../../../src/cpu.v" \
+"../../../../../src/common/fifo/fifo.v" \
+"../../../../../src/hci.v" \
+"../../../../../src/ram.v" \
+"../../../../../src/riscv_top.v" \
+"../../../../../src/common/uart/uart.v" \
+"../../../../../src/common/uart/uart_baud_clk.v" \
+"../../../../../src/common/uart/uart_rx.v" \
+"../../../../../src/common/uart/uart_tx.v" \
+"../../../../../sim/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

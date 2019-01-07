@@ -2491,3 +2491,5 @@ INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
 Vivado Simulator 2018.2
 Time resolution is 1 ps
 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 980.082 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed

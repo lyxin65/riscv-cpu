@@ -23,6 +23,8 @@ wire[`RegBus] id_reg1_o;
 wire[`RegBus] id_reg2_o;
 wire id_wreg_o;
 wire[`RegAddrBus] id_wd_o;
+wire id_jump_flag_o;
+wire[`RegBus] id_jump_addr_o;
 
 // ID/EX to EX
 wire[`AluOpBus] ex_aluop_i;
@@ -31,6 +33,8 @@ wire[`RegBus] ex_reg1_i;
 wire[`RegBus] ex_reg2_i;
 wire ex_wreg_i;
 wire[`RegAddrBus] ex_wd_i;
+wire ex_jump_flag_i;
+wire[`RegBus] ex_jump_addr_i;
 
 // EX to EX/MEM
 wire ex_wreg_o;
@@ -80,6 +84,7 @@ id id0(
 	.aluop_o(id_aluop_o), .alusel_o(id_alusel_o),
 	.reg1_o(id_reg1_o), .reg2_o(id_reg2_o),
 	.wd_o(id_wd_o), .wreg_o(id_wreg_o)
+	.jump_flag_o(id_flag_o), .jump_addr_o(id_addr_o)
 );
 
 regfile regfile0(
@@ -94,9 +99,11 @@ id_ex id_ex0(
 	.id_aluop(id_aluop_o), .id_alusel(id_alusel_o),
 	.id_reg1(id_reg1_o), .id_reg2(id_reg2_o),
 	.id_wd(id_wd_o), .id_wreg(id_wreg_o),
+	.id_jump_flag(id_flag_o), .id_jump_addr(id_addr_o)
 	.ex_aluop(ex_aluop_i), .ex_alusel(ex_alusel_i),
 	.ex_reg1(ex_reg1_i), .ex_reg2(ex_reg2_i),
 	.ex_wd(ex_wd_i), .ex_wreg(ex_wreg_i)
+	.ex_jump_flag(ex_flag_i), .ex_jump_addr(ex_addr_i)
 );
 
 ex ex0(
@@ -105,6 +112,7 @@ ex ex0(
 	.reg1_i(ex_reg1_i), .reg2_i(ex_reg2_i),
 	.wd_i(ex_wd_i), .wreg_i(ex_wreg_i),
 	.wd_o(ex_wd_o), .wreg_o(ex_wreg_o), .wdata_o(ex_wdata_o)
+	.jump_flag_i(ex_flag_i), .jump_addr_i(ex_addr_i)
 
 );
 
